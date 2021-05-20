@@ -1,4 +1,5 @@
 @echo off
+taskkill /im spoolsv.exe /f
 echo Stopping print spooler.
 echo.
 net stop spooler
